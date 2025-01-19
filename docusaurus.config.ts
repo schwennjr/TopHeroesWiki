@@ -13,7 +13,7 @@ const config: Config = {
   url: 'https://topheroes.wiki',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/TopHeroesWiki/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -42,7 +42,7 @@ const config: Config = {
           editUrl:
             'https://github.com/schwennjr/TopHeroesWiki/docs/',
         },
-        blog: {
+        //blog: {
         //  showReadingTime: true,
         //  feedOptions: {
         //    type: ['rss', 'atom'],
@@ -56,7 +56,7 @@ const config: Config = {
         //  onInlineTags: 'warn',
         //  onInlineAuthors: 'warn',
         //  onUntruncatedBlogPosts: 'warn',
-        },
+        //},
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -81,13 +81,13 @@ const config: Config = {
           label: 'Intro'
         },
         //{to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/heroes', label: 'Heroes', position: 'left'},
-        {to: '/buildings', label: 'Buildings', position: 'left'},
-        {to: '/research', label: 'Research', position: 'left'},
-        {to: '/events', label: 'Events', position: 'left'},
-        {to: '/resources', label: 'Items & Resources', position: 'left'},
-        {to: '/gameplay', label: 'Gameplay', position: 'left'},
-        {to: '/UI', label: 'UI', position: 'left'},
+        {to: '/docs/category/heroes', label: 'Heroes', position: 'left'},
+        {to: '/docs/category/buildings', label: 'Buildings', position: 'left'},
+        {to: '/docs/category/research', label: 'Research', position: 'left'},
+        {to: '/docs/category/events', label: 'Events', position: 'left'},
+        {to: '/docs/category/items--resources', label: 'Items & Resources', position: 'left'},
+        {to: '/docs/category/gameplay', label: 'Gameplay', position: 'left'},
+        {to: '/docs/category/ui', label: 'UI', position: 'left'},
         {
           href: 'https://github.com/schwennjr/TopHeroesWiki',
           label: 'GitHub',
