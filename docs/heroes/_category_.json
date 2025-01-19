@@ -1,0 +1,8 @@
+{
+  "label": "Heroes",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Guide to building your heroes to conquer the kingdom"
+  }
+}

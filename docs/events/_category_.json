@@ -1,0 +1,8 @@
+{
+  "label": "Events",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Stay informed about the latest events in the game"
+  }
+}
