@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Welcome to TopHeroes Wiki
 
-Throughout this wiki, you will find information about the game TopHeroes. This includes information about the game, its mechanics, and its heroes. The game is ever evolving, so this wiki will be updated as new information is released.
+Throughout this wiki, you will find the information you need to be the top Lord in TopHeroes. This includes legends for UI pages, how to build your teams, game strategies and much more. The game is ever evolving, so this wiki will be updated as new information is released.
 
 ## Getting Started
 

@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'TopHeroes Wiki',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Your big adventure awaits',
   favicon: 'img/logo.ico',
 
   // Set the production url of your site here
@@ -81,13 +81,13 @@ const config: Config = {
           label: 'Intro'
         },
         //{to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/docs/category/ui', label: 'UI', position: 'left'},
         {to: '/docs/category/heroes', label: 'Heroes', position: 'left'},
         {to: '/docs/category/buildings', label: 'Buildings', position: 'left'},
         {to: '/docs/category/research', label: 'Research', position: 'left'},
         {to: '/docs/category/events', label: 'Events', position: 'left'},
         {to: '/docs/category/items--resources', label: 'Items & Resources', position: 'left'},
-        {to: '/docs/category/gameplay', label: 'Gameplay', position: 'left'},
-        {to: '/docs/category/ui', label: 'UI', position: 'left'},
+        {to: '/docs/category/gameplay', label: 'Gameplay', position: 'left'},        
         {
           href: 'https://github.com/schwennjr/TopHeroesWiki',
           label: 'GitHub',
