@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktopheroes_wiki=self.webpackChunktopheroes_wiki||[]).push([[647],{8015:e=>{e.exports=JSON.parse('{"tag":{"label":"Overview","permalink":"/docs/tags/overview","allTagsPath":"/docs/tags","count":1,"items":[{"id":"heroes/heroes-intro","title":"Introduction to Heroes","description":"","permalink":"/docs/heroes/heroes-intro"}],"unlisted":false}}')}}]);
