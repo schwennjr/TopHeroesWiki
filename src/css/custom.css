@@ -28,3 +28,38 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.grid-content {
+  width: 200%;
+  height: 400vh;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 5px;
+}
+
+.th_image:hover{
+  color: #424242; 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(2);
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+
+}
+
+.th_container {
+  display: flex;
+  flex-direction: reverse;
+
+  justify-content: space-between;
+}
+
+.th_image > img {
+  display: block;
+  max-width: 90%;
+  max-height: 500px;
+}

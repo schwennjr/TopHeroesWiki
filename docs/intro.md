@@ -1,5 +1,9 @@
 ---
 sidebar_position: 1
+tags:
+  - TopHeroes
+  - Tutorial
+id: intro
 ---
 
 # Welcome to TopHeroes Wiki

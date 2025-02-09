@@ -66,7 +66,13 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    //image: 'img/docusaurus-social-card.jpg',
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true
+      },
+    },
     navbar: {
       title: 'TopHeroes Wiki',
       logo: {
@@ -81,13 +87,13 @@ const config: Config = {
           label: 'Intro'
         },
         //{to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/docs/category/ui', label: 'UI', position: 'left'},
         {to: '/docs/category/heroes', label: 'Heroes', position: 'left'},
         {to: '/docs/category/buildings', label: 'Buildings', position: 'left'},
         {to: '/docs/category/research', label: 'Research', position: 'left'},
         {to: '/docs/category/events', label: 'Events', position: 'left'},
         {to: '/docs/category/items--resources', label: 'Items & Resources', position: 'left'},
         {to: '/docs/category/gameplay', label: 'Gameplay', position: 'left'},        
+        {to: '/docs/category/ui', label: 'UI', position: 'left'},
         {
           href: 'https://github.com/schwennjr/TopHeroesWiki',
           label: 'GitHub',
