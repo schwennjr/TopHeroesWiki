@@ -28,6 +28,7 @@ The guild boss is a powerful enemy that requires the combined strength of all gu
         - Select Go
     2. Open the world map and search for the guild boss. It should be located near the guild location. The boss may be different than in the pic depending on the level of the boss
     3. Click on the boss icon near the bottom of the screen. This will take you to the boss location
+    
   </div>
 </div>
 
