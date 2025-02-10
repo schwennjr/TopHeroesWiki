@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktopheroes_wiki=self.webpackChunktopheroes_wiki||[]).push([[564],{7603:s=>{s.exports=JSON.parse('{"tag":{"label":"Castle","permalink":"/docs/tags/castle","allTagsPath":"/docs/tags","count":1,"items":[{"id":"buildings/castle","title":"Castle","description":"","permalink":"/docs/buildings/castle"}],"unlisted":false}}')}}]);
