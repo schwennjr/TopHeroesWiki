@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktopheroes_wiki=self.webpackChunktopheroes_wiki||[]).push([[85],{3237:e=>{e.exports=JSON.parse('{"tag":{"label":"VIP","permalink":"/docs/tags/vip","allTagsPath":"/docs/tags","count":1,"items":[{"id":"ui/vip","title":"VIP","description":"","permalink":"/docs/ui/vip"}],"unlisted":false}}')}}]);

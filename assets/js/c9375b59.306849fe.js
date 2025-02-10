@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktopheroes_wiki=self.webpackChunktopheroes_wiki||[]).push([[566],{1154:e=>{e.exports=JSON.parse('{"tag":{"label":"VIP","permalink":"/TopHeroesWiki/docs/tags/vip","allTagsPath":"/TopHeroesWiki/docs/tags","count":1,"items":[{"id":"ui/vip","title":"VIP","description":"","permalink":"/TopHeroesWiki/docs/ui/vip"}],"unlisted":false}}')}}]);
