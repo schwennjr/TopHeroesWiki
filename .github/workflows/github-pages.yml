@@ -19,5 +19,7 @@ jobs:
 
     - name: Deploy
       run: |
+        git config --global user.email "schwennjr@gmail.com"
+        git config --global user.name "schwennjr"
         git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
         npm run deploy
