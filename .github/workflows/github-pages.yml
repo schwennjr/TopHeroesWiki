@@ -1,8 +1,15 @@
 ---
-name: Build and Deploy TopHeroes Wiki to Github Pages
+name: topheroes-gh-pages
 on: 
   push:
     branches: [ main ]
+  workflow_dispatch:
+    
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build-and-deploy:
     name: Build and Deploy
@@ -10,19 +17,31 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
+    
+    - name: Setup
+      uses: actions/setup-node@v3
+      with:
+        node-version: 22
+    
+    - name: Install
+      run: npm ci
 
     - name: Build
       run: |
-        npm install
-        npm run predeploy
+        npm run build
+        echo topheroes.wiki > build/CNAME
+
+    - name: Save Artifacts
+      uses: actions/upload-pages-artifact@v3
+      with:
+        name: 'topheroeswiki'
+        path: build        
 
     - name: Deploy
-      env:
+      uses: actions/deploy-pages@v4
+      with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-      run: |
-        git config --global user.email "schwennjr@gmail.com"
-        git config --global user.name "schwennjr"
-        git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-        npm run deploy
+        ARTIFACT_NAME: 'topheroeswiki'
+      
