@@ -13,11 +13,11 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Build
-      run: npm install
+      run: |
+        npm install
+        npm run predeploy
 
     - name: Deploy
       run: |
-        git config --global user.name 'Craig Schwenn'
-        git config --global user.email 'schwennjr@gmail.com'
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/schwennjr/top-heroes-wiki.git
-        npm run gh-deploy
+        git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        npm run deploy"
