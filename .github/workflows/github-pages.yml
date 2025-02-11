@@ -18,6 +18,9 @@ jobs:
         npm run predeploy
 
     - name: Deploy
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
       run: |
         git config --global user.email "schwennjr@gmail.com"
         git config --global user.name "schwennjr"
