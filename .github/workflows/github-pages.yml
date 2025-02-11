@@ -1,0 +1,23 @@
+---
+name: Build and Deploy TopHeroes Wiki to Github Pages
+on: 
+  push:
+    branches: [ main ]
+jobs:
+  build-and-deploy:
+    name: Build and Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Build
+      run: npm install
+
+    - name: Deploy
+      run: |
+        git config --global user.name 'Craig Schwenn'
+        git config --global user.email 'schwennjr@gmail.com'
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/schwennjr/top-heroes-wiki.git
+        npm run gh-deploy
