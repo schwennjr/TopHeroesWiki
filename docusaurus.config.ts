@@ -64,6 +64,13 @@ const config: Config = {
     ],
   ],
 
+  //clientModules: [   
+  //  require.resolve('./static/scripts/image.js')
+  //],
+
+  plugins: [
+    'docusaurus-plugin-image-zoom'
+  ],
   themeConfig: {
     // Replace with your project's social card
     //image: 'img/docusaurus-social-card.jpg',
@@ -71,6 +78,16 @@ const config: Config = {
       defaultMode: 'dark',
       disableSwitch: true,
       respectPrefersColorScheme: true,
+    },
+    zoom: {
+      selector: '.th_container .th_image img',
+      background: {
+        light: 'rgb(255, 255, 255)',
+        dark: 'rgb(50, 50, 50)'
+      },
+      config: {
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+      }
     },
     docs: {
       sidebar: {

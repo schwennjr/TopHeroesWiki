@@ -16,7 +16,7 @@ The guild boss is a powerful enemy that requires the combined strength of all gu
 
 <div class="th_container">
   <div class="th_image">
-    <img src={require('/static/img/guild-boss-0.jpg').default} />
+    <img src={require('/static/img/guild-boss-0.jpg').default} alt="Guild Boss Image 0" />
   </div>
   <div class="th_text">
     ### Finding the Guild Boss
@@ -34,7 +34,7 @@ The guild boss is a powerful enemy that requires the combined strength of all gu
 
 <div class="th_container">
   <div class="th_image">
-    <img src={require('/static/img/guild-boss-1.jpg').default} />
+    <img src={require('/static/img/guild-boss-1.jpg').default} alt="Guild Boss Image 1" />
   </div>
   <div class="th_text">
      ### Boss Event Details
@@ -46,7 +46,7 @@ The guild boss is a powerful enemy that requires the combined strength of all gu
 
 <div class="th_container">
   <div class="th_image">
-    <img src={require('/static/img/guild-boss-2.jpg').default} />
+    <img src={require('/static/img/guild-boss-2.jpg').default} alt="Guild Boss Image 2" />
   </div>
   <div class="th_text">
     ### Donating Arrows
@@ -56,7 +56,7 @@ The guild boss is a powerful enemy that requires the combined strength of all gu
 
 <div class="th_container">
   <div class="th_image">
-    <img src={require('/static/img/guild-boss-3.jpg').default} />
+    <img src={require('/static/img/guild-boss-3.jpg').default} alt="Guild Boss Image 3" />
   </div>
   <div class="th_text">
     ### Setting up Auto-Rallies
@@ -66,7 +66,7 @@ The guild boss is a powerful enemy that requires the combined strength of all gu
 
 <div class="th_container">
   <div class="th_image">
-    <img src={require('/static/img/guild-boss-4.jpg').default} />
+    <img src={require('/static/img/guild-boss-4.jpg').default} alt="Guild Boss Image 4" />
   </div>
   <div class="th_text">
     ### Boss Window Details
@@ -76,7 +76,7 @@ The guild boss is a powerful enemy that requires the combined strength of all gu
 
 <div class="th_container">
   <div class="th_image">
-    <img src={require('/static/img/guild-boss-5.jpg').default} />
+    <img src={require('/static/img/guild-boss-5.jpg').default} alt="Guild Boss Image 5" />
   </div>
   <div class="th_text">
     ### Initiate a Rally
@@ -86,10 +86,15 @@ The guild boss is a powerful enemy that requires the combined strength of all gu
 
 <div class="th_container">
   <div class="th_image">
-    <img src={require('/static/img/guild-boss-6.jpg').default} />
+    <img src={require('/static/img/guild-boss-6.jpg').default} alt="Guild Boss Image 6" />
   </div>
   <div class="th_text">
     ### Select Queue for Rally
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aliquid eius quia expedita illo sequi optio labore assumenda.
   </div>
 </div>
+
+<div class="popup-image">
+  <img src={require('/static/img/guild-boss-1.jpg').default} alt="" />
+</div>
+
