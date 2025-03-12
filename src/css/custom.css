@@ -55,13 +55,29 @@
 
 .th_container {
   display: flex;
+  align-items: left;
   flex-direction: reverse;
   justify-content: space-between;
 }
+
+.th_image {
+  width: 20%;
+  margin-right: 20px;
+}
+
+.th_text {
+  width: 80%;
+}
+
 .th_image > img {
   display: block;
-  max-width: 90%;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  
+  /*
+  max-width: 20%;
   max-height: 500px;
+  */
 }
 
 .popup-image {

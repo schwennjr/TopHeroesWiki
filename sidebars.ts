@@ -86,7 +86,8 @@ const sidebars: SidebarsConfig = {
       //},
       collapsed: true,
       items: [
-        'gameplay/adventure-mode'
+        'gameplay/adventure-mode', 
+        'gameplay/plunder-carriage'
       ],
     },
     {
